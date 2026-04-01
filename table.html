@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th><input type="checkbox" id="checkAll"></th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <!-- ROW -->
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="user">
+          <img src="https://i.pravatar.cc/40?img=1">
+          <div>
+            <span class="email">dtomarkotto@email.com</span>
+            <small>Added: 01/03/2026</small>
+          </div>
+        </td>
+        <td>Dito markoto</td>
+        <td>
+          <div class="status-container">
+            <span class="badge active">Active</span>
+            <div class="status-menu">
+              <div data-value="active">Active</div>
+              <div data-value="waiting">Waiting for Reassignment</div>
+              <div data-value="inactive">Inactive</div>
+            </div>
+          </div>
+        </td>
+        <td class="delete">✕</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="user">
+          <img src="https://i.pravatar.cc/40?img=2">
+          <div>
+            <span class="email">Hafidhoui@email.com</span>
+            <small>Added: 01/03/2026</small>
+          </div>
+        </td>
+        <td>Hafidh ceking</td>
+        <td>
+          <div class="status-container">
+            <span class="badge waiting">Waiting for Reassignment</span>
+            <div class="status-menu">
+              <div data-value="active">Active</div>
+              <div data-value="waiting">Waiting for Reassignment</div>
+              <div data-value="inactive">Inactive</div>
+            </div>
+          </div>
+        </td>
+        <td class="delete">✕</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="user">
+          <img src="https://i.pravatar.cc/40?img=3">
+          <div>
+            <span class="email">upijelek@email.com</span>
+            <small>Added: 01/03/2026</small>
+          </div>
+        </td>
+        <td>Jayupi</td>
+        <td>
+          <div class="status-container">
+            <span class="badge active">Active</span>
+            <div class="status-menu">
+              <div data-value="active">Active</div>
+              <div data-value="waiting">Waiting for Reassignment</div>
+              <div data-value="inactive">Inactive</div>
+            </div>
+          </div>
+        </td>
+        <td class="delete">✕</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="user">
+          <img src="https://i.pravatar.cc/40?img=4">
+          <div>
+            <span class="email">Aderaka@email.com</span>
+            <small>Added: 01/03/2026</small>
+          </div>
+        </td>
+        <td>Aderay</td>
+        <td>
+          <div class="status-container">
+            <span class="badge active">Active</span>
+            <div class="status-menu">
+              <div data-value="active">Active</div>
+              <div data-value="waiting">Waiting for Reassignment</div>
+              <div data-value="inactive">Inactive</div>
+            </div>
+          </div>
+        </td>
+        <td class="delete">✕</td>
+      </tr>
+
+      <tr>
+        <td><input type="checkbox"></td>
+        <td class="user">
+          <img src="https://i.pravatar.cc/40?img=5">
+          <div>
+            <span class="email">garybird@email.com</span>
+            <small>Added: 01/03/2026</small>
+          </div>
+        </td>
+        <td>Garyang</td>
+        <td>
+          <div class="status-container">
+            <span class="badge waiting">Waiting for Reassignment</span>
+            <div class="status-menu">
+              <div data-value="active">Active</div>
+              <div data-value="waiting">Waiting for Reassignment</div>
+              <div data-value="inactive">Inactive</div>
+            </div>
+          </div>
+        </td>
+        <td class="delete">✕</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
